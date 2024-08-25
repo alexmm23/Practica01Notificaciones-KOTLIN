@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">E-Commerce</string>
+    <string name="login">Iniciar sesion</string>
+    <string name="cancel">Cancelar</string>
+    <string name="accept">Aceptar</string>
+    <string name="save">Gurdar</string>
+    <string name="exit">Salir</string>
+    <string name="name">Nombre</string>
+    <string name="lastname">Apellidos</string>
+    <string name="payment_method">Metodo pago</string>
+    <string name="password">Contrasena</string>
+</resources>
