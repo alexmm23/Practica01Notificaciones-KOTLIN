@@ -1,6 +1,7 @@
 package com.example.practica01notificaciones
 
 import android.annotation.SuppressLint
+import android.app.AlarmManager
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.MenuItem
@@ -16,6 +17,7 @@ import android.content.Intent
 import android.os.Build
 import androidx.core.app.NotificationCompat
 import androidx.core.app.NotificationManagerCompat
+import java.util.Calendar
 
 
 class ProductDetailActivity : AppCompatActivity() {
@@ -39,7 +41,6 @@ class ProductDetailActivity : AppCompatActivity() {
             sendPurchaseNotification()
         }
     }
-
     // Volver a la activity anterior
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         return when (item.itemId) {
